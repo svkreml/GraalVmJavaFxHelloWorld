@@ -2,6 +2,8 @@
 
 для запуска необходимо указать в профиле путь к graalvm_home
 
+![img_3.png](img_3.png)
+
 Для нативной сборки используется https://github.com/gluonhq/gluonfx-maven-plugin
 
 ![img.png](img.png)
