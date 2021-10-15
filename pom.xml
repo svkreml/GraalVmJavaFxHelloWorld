@@ -16,7 +16,7 @@
         <attach.version>4.0.12</attach.version>
         <gluonfx.plugin.version>1.0.7</gluonfx.plugin.version>
         <javafx.plugin.version>0.0.7</javafx.plugin.version>
-        <mainClassName>svkreml.GraalVmJavaFxHelloWorld.MainApp</mainClassName>
+        <mainClassName>GraalVmJavaFxHelloWorld/svkreml.GraalVmJavaFxHelloWorld.MainApp</mainClassName>
     </properties>
 
     <dependencies>
@@ -57,9 +57,7 @@
                 <configuration>
                     <graalvmHome>${graalvm_home}</graalvmHome>
                     <target>${gluonfx.target}</target>
-                    <attachList>
-
-                    </attachList>
+<!--                    <nativeImageArgs>&#45;&#45;add-modules javafx.controls</nativeImageArgs>-->
                     <mainClass>${mainClassName}</mainClass>
                 </configuration>
             </plugin>
